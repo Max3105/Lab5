@@ -354,7 +354,7 @@ public class GraphicsDisplay extends JPanel {
         public MouseHandler() {
         }
 
-        public void mouseClicked(MouseEvent ev) {
+       /* public void mouseClicked(MouseEvent ev) {
             if (ev.getButton() == 3) {
                 if (GraphicsDisplay.this.undoHistory.size() > 0) {
                     GraphicsDisplay.this.viewport = (double[][])GraphicsDisplay.this.undoHistory.get(GraphicsDisplay.this.undoHistory.size() - 1);
@@ -449,3 +449,4 @@ public class GraphicsDisplay extends JPanel {
         }
     }
 }
+*/
